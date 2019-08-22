@@ -5,6 +5,6 @@ def square_array(array)
   while counter < array.size do
     new_array << array[counter]*array[counter]
     counter = counter + 1
-    puts array
+    puts new_array
   end
 end
